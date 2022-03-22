@@ -1,0 +1,306 @@
+@import "_reset.scss";
+
+body{
+	font-family: 'Lato';
+	font-size: 17px;
+}
+.conteiner{
+	max-width: 1150px;
+	margin: 0 auto;
+	height: 100%;
+}
+header{
+	height: 85px;
+}
+.wrapper{
+	display: flex;
+	
+	align-items: center;
+	height: 100%;
+}
+
+.header-logo{
+	
+	margin:  0 130px 0 0  ;
+}
+nav{
+	ul{
+		li{
+			margin: 0px 50px 0px 0px;
+			font-size: 17px;
+		}
+		li:last-child{
+			margin: 0;
+		}
+		display: flex;
+		
+		a{
+			color: #292929;
+			;
+		}
+	}
+}
+
+.header-btn{
+	font-size: 17px;
+	display: flex;
+	margin-left: auto;
+
+}
+.white-btm{
+	margin: 0px 35px 0px 0px;
+	display: flex;
+	align-items: center;
+	color: #000;
+}
+.green-btn{
+	padding: 13px 40px 13px 40px;
+	color: #fff;
+	background:  #01996D;
+	border-radius: 4px;
+}
+.home-page{
+	overflow: hidden;
+	background: url('/12.png') 0 0/100% 100% no-repeat;
+ 	height: 100%;
+}
+.bg{
+	
+	background: linear-gradient(112.58deg, #FFFFFF 18.15%, rgba(255, 255, 255, 0) 53.07%), rgba(0, 0, 0, 0.1);
+	height: 900px;
+}
+.home-block{
+	display: flex;
+	flex-direction: column;
+	width: 400px;
+	padding-top:135px ;
+	
+}
+.home-subtitle{
+	font-size: 52px;
+	margin: 0 0 30px 0;
+	font-weight: 700;
+	color: #01996D;
+	;
+}
+.home-text{
+	font-size: 17px;
+	font-weight: 400;
+	line-height: 25px;
+}
+.btn{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 30px 0 0 0;
+	width: 180px;
+	font-size: 17px;
+	color: #fff;
+	padding: 15px 35px;
+	background:  #01996D;
+	border-radius: 4px;
+
+}
+.home-grn-btn{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 30px 0 0 0;
+	width: 180px;
+	font-size: 17px;
+	color: #fff;
+	padding: 15px 35px;
+	background:  #01996D;
+	border-radius: 4px;
+	}
+
+main{
+	margin: 150px 0 0 0;
+}
+.main-title{
+	color:  #424242;
+	font-size: 17px;
+}
+.main-item-text{
+	display: flex;
+	
+}
+.main-subtext{
+	font-size: 40px;
+	color: #01996D;
+	line-height: 65px;
+	margin: 0 60px 0 0;
+	
+}
+.main-text{
+	font-size: 17px;
+	line-height: 26px;
+	font-weight: 500;
+	color:#424242;
+	margin: 0 0 0 60px;
+	
+}
+.main-flex{
+	flex-basis: 50%;
+}
+.main-item{
+	margin: 250px 0 0  0;
+	display: flex;
+	
+}
+.item-cart{
+	flex: 1 1  33%;
+	margin: 0 0 0 90px;
+	display: flex;
+ 	
+
+}
+.item-cart:first-child{
+	margin: 0;
+}
+.wraper-cart{
+	display: flex;
+ 	flex-direction: column;
+	position: relative;
+	
+}
+img{
+	max-width:100% ;
+}
+.cart-title{
+	font-size: 25px;
+	text-align: center;
+	margin: 0 0 45px;
+}
+.cart-text{
+	flex: 1 1 auto;
+	color: #424242;
+	font-size: 17px;
+	line-height: 25px;
+
+}
+.cart-number{
+	img{	
+		position:absolute;
+	top:  -59px;}
+
+}
+.kayla{
+	margin: 50px 0 0  0;
+	background: #245852;
+}
+.kayla-row{
+	display: flex;
+	padding: 230px 0 170px 0;
+}
+
+.item-1{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	color: #fff;
+	
+	.item-subtext{
+	font-size: 40px;
+	line-height: 71px;
+	margin: 0 0 15px 0;
+	}
+}
+ .items{
+	 flex: 0 1 50%;
+ }
+ .item-btn{
+	 width: 200px;
+
+ }
+.prodict-item{
+	display: flex;
+	padding: 120px 100px 220px 100px;
+}
+.pro-item-1{
+	margin: 0px 35px 0px 0px;
+}
+.pro-item-2{
+	margin: 0px 0px 0px 35px;
+	.our-pro{
+		display: block;
+		margin: 0px 0px 20px 0px;
+	}
+	.pro-title{
+		color: #01996D;
+		font-size: 40px;
+		font-weight: 700;
+		line-height: 60px;
+	}
+	.pro-text{
+		color: #484848;
+		line-height: 25px;
+	}
+}
+.pro-itblock{
+	position: relative;
+}
+.in-block{
+	padding: 25px;
+	display: flex;
+	flex-direction: column;
+	font-size: 15px;
+	position: absolute;
+	left: -60px;
+	bottom: -60px;
+	background: #fff;
+	border-radius: 4px;
+   box-shadow: 0px 3.62249px 18.1125px rgba(165, 165, 165, .25);
+	img{
+		width: 60px;
+		border-radius: 50%;
+		margin: 0 auto;
+	}
+	ul{
+		li{
+			font-size: 15px;
+			line-height: 20px;
+			list-style-type: disc;
+		}
+	}
+	
+}
+.for{
+	position: relative;
+	text-align: center;
+	padding: 5px;
+	
+}
+.for::after{
+	content: "";
+	position: absolute;
+	width: 120px;
+	height: 1px;
+	background: #000;
+	bottom: 0;
+	left: 34.5px;
+}
+.your{
+	font-size: 18px;
+	font-weight: 700;
+	margin: 0px 0px 15px 0px;
+}
+.name{
+	text-align: center;
+	margin: 7px 0;
+}
+
+footer{
+	background: #245852;
+	padding: 55px  0px 110px 68px;
+	li{
+		line-height: 45px;
+		a{
+			color: #fff;
+		}
+		
+	}
+	li:first-child{
+			font-size: 24px;
+		}
+}
